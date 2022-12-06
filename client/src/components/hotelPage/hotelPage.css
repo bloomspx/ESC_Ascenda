@@ -1,0 +1,202 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: none;
+}
+
+.container {
+    background: none;
+}
+
+.hotel--images {
+    flex: 1;
+    height:420px;
+    object-fit: cover;
+    border-radius: 5px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/141/669/original/no-photo-or-blank-image-icon-loading-images-or-missing-image-mark-image-not-available-or-image-coming-soon-sign-simple-nature-silhouette-in-frame-isolated-illustration-vector.jpg");
+    background-position: center;
+    background-size:cover;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hotel--header {
+    display: flex;
+    padding: 15px 0px;
+    justify-content: space-between;
+    border-bottom: 1px lightgrey solid;
+}
+
+    .hotel--name {
+        display: flex;
+        gap: 10px;
+    }
+
+    .hotel--name > h1{
+        font-size: 26px;
+    }
+
+    .hotel--address{
+        font-size: 15px;
+        font-weight: 500;
+        display:flex;
+        align-items: center;
+        gap:10px;
+        padding: 5px;
+    }
+
+    .hotel--categories {
+        color:brown;
+        font-weight: bold;
+    }
+
+    .hotel--price {
+        display:flex;
+        flex-direction: column;
+        align-items:flex-end;
+        justify-content: right;
+    }
+    
+    .hotel--price > .price {
+        font-size: 26px;
+        font-weight: bold;
+    }
+    
+    .hotel--price > .subtext {
+        font-size: 12px;
+        color:grey;
+        margin-bottom: 5px;
+    }
+
+
+.desc-wrapper {
+    position: relative;
+    margin: 10px 0px;
+    margin-bottom: 20px;
+}
+
+    .desc {
+        height: fit-content;
+        max-height: 300px;
+        overflow: hidden;
+    }
+
+    .show--more {
+        position: absolute;
+        bottom: -25px;
+        right: 0px;
+        color:#348ac7;
+        cursor: pointer;
+        user-select: none;
+    }
+
+
+
+.hotel--ratings {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+    .hotel--location {
+        margin: 10px 0px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .location {
+        text-align: center;
+        color: #c06c84;
+    }
+
+
+.hotel--body2 {
+    display:flex;
+    align-items: flex-start;
+    padding-top: 10px;
+    gap:30px;
+}
+
+.hotel--description {
+    flex: 1;
+    font-size: 14px;
+    flex-direction: column;
+}
+
+.with--amenities {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+    .with--amenities > li {
+        flex: 1 0 50%;
+        list-style: none;
+        margin: 5px 0px;
+    }
+
+    .with--amenities > li:before {
+        content: '✓';
+        padding-right: 8px;
+        color:cornflowerblue
+    }
+
+.amenities-wrapper {    
+    padding-left: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    .amenities {
+        max-height: 200px;
+        height: fit-content;
+        overflow:hidden;
+    }
+
+    .show--amenities {
+        position: absolute;
+        bottom: -15px;
+        left: 50%;
+        color:#348ac7;
+        cursor: pointer;
+        user-select: none;
+    }
+    .amenities--ratings {
+        margin-top: 5px;
+    }
+
+    .progress--title {
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .progress {
+        background-color: #d8d8d8;
+        width: 250px;
+        border-radius: 20px;
+        position: relative;
+
+    }
+
+    .progress-done {
+        background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+        box-shadow: 0 3px 3px -5px #355c7d, 0 2px 5px #355c7d;
+        border-radius: 20px;
+        justify-content: center;
+        height: 7px;
+    }
+
+    .hotel--rooms {
+        border-top: 1px lightgrey solid;
+        padding-top: 10px;
+    }
+
+
+
+
+
+

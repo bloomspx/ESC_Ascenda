@@ -1,0 +1,120 @@
+.searchItem {
+    border-bottom: 1px solid lightgrey;
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+    gap:20px;
+    height:200px;
+    margin-bottom: 10px;
+}
+
+.si--image {
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius: 5px;
+}
+
+.si--desc {
+    display:flex;
+    flex-direction: column;
+    flex: 2;
+    padding-right: 10px;
+}
+
+.si--name {
+    font-size:20px;
+    letter-spacing: -0.5px;
+}
+
+.si--small{
+    display:flex;
+    flex-direction: column;
+    font-size:12px;
+    font-weight: 500;
+}
+
+.si--address {
+    color:brown;
+}
+
+.si--distance {
+    color:brown;
+}
+.si--description {
+    font-size:13px;
+    margin-top:5px;
+    letter-spacing: -0.5px;
+    overflow: hidden;
+}
+
+.si--description > div {
+    column-width: 250px;
+    height: 100%;
+}
+
+.si--details {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.si--rating {
+    display:flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.si--rating > span {
+    font-weight: 600;
+}
+
+.si--rating > button {
+    background: linear-gradient(to right, #7474bf, #348ac7); 
+    color:white;
+    border: none;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 7px;
+}
+
+.si--pricing {
+    display:flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: right;
+}
+
+.si--from {
+    font-size: 12px;
+    color:grey;
+}
+
+.si--price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.si--showprices {
+    background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+    font-size: 15px;
+    color:white;
+    padding:7px 15px;
+    border:none;
+    width:fit-content;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor:pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, 
+                rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.si--showprices:hover {
+    transform: scale(1.5);
+    transform: translateY(-2px);
+    opacity: 0.8;
+}

@@ -1,0 +1,106 @@
+
+.ratesCard {
+    height:170px;
+    width:170px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 10px;
+    display:flex;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, 
+                rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+/* .rainbow--gradient {
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    background: linear-gradient(45deg, rgb(53, 92, 125, 0.7), 
+                                    rgb(108, 91, 123, 0.7),
+                                    rgb(192, 108, 132, 0.7));
+  } */
+
+.ratesCard:hover {
+    transform: scale(1.3);
+    transform: translateY(-2px);
+    transform: translateX(-2px);
+    border: 4px rgb(108, 91, 123, 0.7) solid;
+    
+}
+
+.food-icon {
+    margin-right: 5px;
+}
+
+.rates--container {
+    display:flex;
+    flex-direction: column;
+    margin: 0px 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+.rates--details {
+    text-align: left;
+    height: 50px;
+}
+
+.free-breakfast {
+    font-weight: bold;
+    color:green;
+    font-size: 12px;
+    margin: 5px 0px;
+}
+
+.free--cancellation {
+    font-weight: bold;
+    color:green;
+    font-size: 12px;
+    margin: 5px 0px;
+}
+
+.no-breakfast {
+    font-weight: bold;
+    color:brown;
+    font-size: 12px;
+    margin: 5px 0px;
+}
+
+.no-cancellation {
+    font-weight: bold;
+    color:brown;
+    font-size: 12px;
+    margin: 5px 0px;
+}
+
+.rates--pricing {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    gap:5px;
+    text-align: right;
+}
+    
+
+.rates--pricing > .website {
+    font-size: 19px;
+    color:brown;
+}
+
+
+.rates--pricing > .price {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.rates--pricing > .room {
+    font-size: 12px;
+    color:grey;
+}
+
+#react-confirm-alert {
+    color:black; 
+}
